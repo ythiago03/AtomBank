@@ -1,0 +1,63 @@
+.h-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+}
+
+.h-logo{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.logo__ball{
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.131);
+}
+
+.logo__ball::before{
+  content: '';
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: #13C93E;
+  border-radius: 50%;
+}
+
+.logo__text{
+  color: var(--primaryText);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.logo__text > span{
+  font-weight: bold;
+}
+
+.h-navbar ul{
+  display: flex;
+  gap: 3rem;
+  font-weight: 500;
+}
+
+.h-buttons{
+  display: flex;
+  gap: 1rem; 
+}
+
+.button:nth-child(1){
+  background: #EFF1F3;
+  color: var(--primaryText);
+}
+
+.button a{
+  color: white;
+}
