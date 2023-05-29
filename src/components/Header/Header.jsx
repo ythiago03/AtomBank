@@ -33,7 +33,7 @@ const Header = () => {
       </nav>
 
       <div className="h-buttons">
-        <button className="button">Log in</button>
+        <button className="button buttonWhite">Log in</button>
         <button className="button">Register</button>
       </div>
 

@@ -28,4 +28,23 @@ body{
   padding: .8rem 2.5rem;
   font-weight: 500;
   cursor: pointer;
+  position: relative;
+  transition: all 400ms ease-in-out;
+}
+
+.button:hover{
+  color: var(--primaryText);
+  background: #EFF1F3;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.292);
+}
+
+.buttonWhite{
+  background: #EFF1F3;
+  color: var(--primaryText);
+}
+
+.buttonWhite:hover{
+  color: white;
+  background: linear-gradient(25deg, #494b4e, #1d2027);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.258);
 }

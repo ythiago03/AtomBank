@@ -48,16 +48,28 @@
   font-weight: 500;
 }
 
+.h-navbar li{
+  position: relative;
+  overflow: hidden;
+}
+
+.h-navbar li:hover a::before{
+  left: 0;
+}
+
+.h-navbar a::before{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: -101%;
+  width: 100%;
+  height: 3px;
+  background-color: var(--primaryText); 
+  transition: all 300ms ease-out;
+}
+
 .h-buttons{
   display: flex;
   gap: 1rem; 
-}
-
-.button:nth-child(1){
-  background: #EFF1F3;
-  color: var(--primaryText);
-}
-
-.button a{
-  color: white;
 }
