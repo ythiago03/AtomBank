@@ -3,7 +3,8 @@
 :root {
  --primaryText: #1d2027;
  --secondaryText: #989898;
- --green: #47924b;
+ --greenDark: #47924b;
+ --greenLight: #32be4b;
 }
 
 *{
