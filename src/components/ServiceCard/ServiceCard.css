@@ -1,0 +1,29 @@
+.service-wrapper{
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.icon{
+  width: 160px;
+  height: 160px;
+  border-radius: 32px;
+  background-color: #1D2027;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.565);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description{
+  max-width: 340px;
+}
+
+.description h1{
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.description p{
+  color: var(--secondaryText);
+}

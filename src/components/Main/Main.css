@@ -2,8 +2,8 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 4rem;
-  padding-left: 4rem;
+  padding: 4rem 0rem 7rem 4rem;
+  margin-bottom: 5rem;
 }
 
 /* left-side */
