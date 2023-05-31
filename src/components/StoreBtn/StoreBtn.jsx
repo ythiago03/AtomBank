@@ -1,9 +1,23 @@
 import React from 'react';
 
-const StoreBtn = () => {
+import './StoreBtn.css';
+
+const StoreBtn = ({imgUrl, appName, text}) => {
   return (
-    <div>StoreBtn</div>
+    <button className="store__btn">
+      <img src={imgUrl} alt={appName + ' Logo'} />
+      <div className="desc">
+        <span>{text}</span>
+        <span>{appName}</span>
+      </div>
+    </button>
   );
 };
 
 export default StoreBtn;
+
+StoreBtn.propTypes = {
+  imgUrl: '',
+  appName: '',
+  text: '',
+}.isRequired;

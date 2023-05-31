@@ -8,12 +8,12 @@ import BankApp from './components/BankApp/BankApp';
 function App() {
  
   return (
-    <div>
+    <>
       <Header />
       <Main />
       <Products />
       <BankApp />
-    </div>
+    </>
   );
 }
 

@@ -30,4 +30,4 @@ ServiceCard.propTypes = {
   title: '',
   desc: '',
   icon: '',
-};
+}.isRequired;
