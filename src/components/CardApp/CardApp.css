@@ -1,48 +1,40 @@
-.e-container{
-  width: 100%;
+.c-container{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  width: 100%;
   gap: 6.4rem;
+  flex-wrap: wrap;
 }
 
-/* right side */
-
-.e-right{
+.c-right{
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  max-width: 700px;
+  max-width: 600px;
   min-width: 400px;
   width: 100%;
 }
 
-.e-right h2{
+.c-right h2{
   font-size: 2.25rem;
   font-weight: 500;
   padding-bottom: 2.5rem;
 }
 
-.e-right h2 > span{
+.c-right h2 > span{
   font-weight: 700;
 }
 
-.e-right p {
+.c-right p {
   color: var(--secondaryText);
   padding-bottom: 2.5rem;
 }
 
-.buttons{
+.c-right a{
   display: flex;
-  gap: 1.5rem;
-  padding-bottom: 2.5rem;
-  flex-wrap: wrap;
-}
-
-/* left side */
-
-.e-left{
-  width: 350px;
-  height: 350px;
+  align-items: center;
+  gap: .6rem;
+  color: var(--greenDark);
+  text-decoration: underline;
 }

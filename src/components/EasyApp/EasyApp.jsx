@@ -16,7 +16,7 @@ const EasyApp = () => {
       </div>
 
       <div className="e-right">
-        <h1><span>Atom</span>Bank App for Your Easy</h1>
+        <h2><span>Atom</span>Bank App for Your Easy</h2>
 
         <p>
           The best place to transact and save money. More organized finances
