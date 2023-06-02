@@ -1,0 +1,104 @@
+.f-container{
+  background-color: var(--primaryText);
+  width: 100%;
+  padding: 3rem 6.4rem 0rem 6.4rem;
+}
+
+.f-container > :last-child{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: var(--secondaryText);
+}
+
+.f-container > :last-child a{
+  color: var(--secondaryText);
+  padding-left: 0.5rem;
+  text-decoration: underline;
+}
+
+.f-wrapper{
+  padding: 1rem 1rem 2.4rem 1rem;
+  border-bottom: 1px solid var(--secondaryText);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.f-logo{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.f-logo__ball{
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.131);
+}
+
+.f-logo__ball::before{
+  content: '';
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: var(--greenLight);
+  border-radius: 50%;
+}
+
+.f-logo__text{
+  color:white;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.f-logo__text > span{
+  font-weight: bold;
+}
+
+.f-about{
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 3.4rem;
+}
+
+.f-about__content{
+  color: white;
+  max-width: 270px;
+  width: 100%;
+  text-align: left;
+}
+
+.f-about__content h3{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.f-about__content span{
+  color: var(--secondaryText);
+}
+
+.f-socialMedia{
+  color: var(--secondaryText);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.f-socialMedia span{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: .8rem;
+  cursor: pointer;
+}
+
