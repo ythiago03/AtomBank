@@ -13,10 +13,10 @@ function App() {
     <>
       <Header />
       <Main />
-      <Products />
-      <BankApp />
+       <Products />
+     {/*<BankApp />
       <Newsletter />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
