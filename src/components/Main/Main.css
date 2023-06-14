@@ -111,4 +111,28 @@
     min-width: 250px;
   }
 
+  .underlined::before{
+    top: 42px;
+    height: 7px;
+  }
+}
+
+@media (max-width: 500px) {
+  .m-wrapper__left h1{
+    font-size: 1.6rem;
+  }
+
+  .underlined::before{
+    top: 31px;
+    height: 6px;
+  }
+
+  .m-buttons{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .m-wrapper__right img{
+   display: none;
+  }
 }
