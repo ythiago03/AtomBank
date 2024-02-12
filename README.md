@@ -2,7 +2,7 @@
 
 <p align="center"> Landing page para um App de banco digital. </p>
 
-<img src="https://user-images.githubusercontent.com/" alt="Capa do projeto">
+![Capa do projeto](./src/assets/atombank.png)
 
 <p align="center">
     <a href="#sobre">sobre</a> •
