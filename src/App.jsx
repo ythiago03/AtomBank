@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Main />
        <Products />
-     {/*<BankApp />
+      <BankApp />
       <Newsletter />
-      <Footer /> */}
+      <Footer /> 
     </>
   );
 }
